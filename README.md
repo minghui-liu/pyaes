@@ -1,8 +1,10 @@
 # pyAES
 A very readable Python implementation of Advanced Encryption Standard (AES)
 
+[Download PDF writup](/project_writeup.pdf)
+
 # Introduction
-This project is a programming project aiming to implement AES using python for learning pur- poses. The design goal of this project is to break down and implement AES in a way that makes studying the internals of AES easier. It was not designed for real world production use and will not have the same level of security or performance as libraries used in production.
+This project is a programming project aiming to implement AES using python for learning purposes. The design goal of this project is to break down and implement AES in a way that makes studying the internals of AES easier. It was not designed for real world production use and will not have the same level of security or performance as libraries used in production.
 
 # Implementation Details
 This project is written in Python 2.7. It is strongly recommended that you run this project with Python 2.7 as you might get errors using Python 3.
