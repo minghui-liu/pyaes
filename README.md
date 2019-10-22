@@ -1,7 +1,12 @@
 # pyAES
 A very readable Python implementation of Advanced Encryption Standard (AES)
 
-[Download PDF writup](/project_writeup.pdf)
+![AES Crib Sheet](/readme_imgs/aes.png)
+
+Image from Jeff Moser’s GREAT post: [A Stick Figure Guide to the Advanced Encryption Standard (AES)](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html)
+
+
+[Download this write-up in PDF](/project_writeup.pdf)
 
 # Introduction
 This project is a programming project aiming to implement AES using python for learning purposes. The design goal of this project is to break down and implement AES in a way that makes studying the internals of AES easier. It was not designed for real world production use and will not have the same level of security or performance as libraries used in production.
@@ -91,6 +96,6 @@ The correctness of this implementation is verified again NIST known AES test vec
 # Performance
 The speed of this implementation is measured against pyCrypto, a widely used Crypto library for Python. All tests are performed on the author’s laptop. Both encryption and decryption time for long randomly generated strings are measured for both implementations and compared. To run the performance test, run `python performance.py`.
 
-![Performance Table](/table1.png)
+![Performance Table](/readme_imgs/table1.png)
 
 As evident from Table 1 and 2, this implementation is significantly slower than pyCrypto, which is expected. Most of the operations in pyCrypto are vectorized to matrix multiplication, which makes the code run much faster.
